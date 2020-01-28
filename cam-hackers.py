@@ -25,12 +25,9 @@ try:
         
             res = requests.get(url, headers=headers)
             findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
-            count = 0
                             
-            for _ in findip:
-                 hasil = findip[count]
-                 print ("\033[1;31m", hasil)
-                 count += 1
+            for ip in findip:
+                 print ("\033[1;31m", ip)
         
     except:
         print(" ")
