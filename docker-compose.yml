@@ -1,0 +1,18 @@
+version: '3.7'
+
+networks:
+    internet:
+        driver: bridge
+
+services: 
+
+    hidden:
+        container_name: camm
+        build: .
+        image: cammhack:v0.1
+        command: python3 cam-hackers.py
+        stdin_open: true
+        tty: true
+        networks:
+            - internet
+        #restart: on-failure
