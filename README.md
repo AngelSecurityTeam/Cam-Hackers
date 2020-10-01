@@ -1,4 +1,7 @@
 # Cam-Hackers
+# Only for educational purpose
+# Camera hacking is a crime
+# Do not missuse
 
 Hack Cameras
 
