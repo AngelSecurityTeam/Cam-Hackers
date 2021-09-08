@@ -10,9 +10,7 @@ Hack Cameras
 
 * git clone https://github.com/AngelSecurityTeam/Cam-Hackers
 
-* pip3 install requests
-
-* pip3 install colorama
+* pip3 install -r requirements.txt
 
 * cd Cam-Hackers
 
