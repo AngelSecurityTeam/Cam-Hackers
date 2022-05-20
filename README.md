@@ -10,9 +10,9 @@ Hack Cameras
 
 * git clone https://github.com/AngelSecurityTeam/Cam-Hackers
 
-* pip install -r requirements.txt
-
 * cd Cam-Hackers
+
+* pip install -r requirements.txt
 
 * python3 cam-hackers.py
 
