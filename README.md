@@ -2,28 +2,40 @@
 
 Hack Cameras
 
-<h3> Mode Of Execution: </h3>
+### Usage
 
+<strong>Linux</strong>
 * apt-get install python3
-
 * apt-get install git
-
 * git clone https://github.com/AngelSecurityTeam/Cam-Hackers
-
 * cd Cam-Hackers
-
 * pip install -r requirements.txt
+* python3 cam_hackers.py
 
-* python3 cam-hackers.py
+<strong>Windows</strong>
+* git clone https://github.com/AngelSecurityTeam/Cam-Hackers
+* cd Cam-Hackers
+* pip install -r requirements.txt
+* python3 cam_hackers.py
 
-# CAM-HACKERS
+<strong>As a library</strong>
+* `import cam_hackers`
+* `cam_hackers.scrape("countrycode")`
 
-<img src="https://github.com/AngelSecurityTeam/Cam-Hackers/blob/master/camfoto.png">
+* Example:
+```python
+import cam_hackers
 
-# CAM-HACKERS
+for ip in cam_hackers.scrape("NL"):
+    print(ip)
+```
 
-<img src="https://github.com/AngelSecurityTeam/Cam-Hackers/blob/master/camfoto2.png">
+### Images
 
-<h3> Paypal donations: </h3>
+<img src="img/camfoto.png" alt="picture displaying the interface">
+
+<img src="img/camfoto2.png" alt="picture displaying an example of a camera">
+
+### Paypal donations
 
 * https://www.paypal.com/paypalme/AngelSecTeam
